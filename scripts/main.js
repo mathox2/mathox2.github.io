@@ -25,7 +25,7 @@ const messageEl = document.getElementById("message");
  */
 function setHelloWorldMessage(index) {
     // Update the Hello World message and language
-    const [lang, message] = helloWorldMessages[25];
+    const [lang, message] = helloWorldMessages[index];
     messageEl.textContent = message;
     titleEl.textContent = `Hello World in ${lang}`;
 
