@@ -1,0 +1,27 @@
+.noDisplay {
+    display: none !important;
+}
+
+button {
+    width: 200px;
+}
+
+#containerButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    width: 100vw;
+}
+
+#map {
+    height: 100vw;
+}
+#affichageDemande{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
